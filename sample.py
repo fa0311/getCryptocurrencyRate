@@ -11,7 +11,7 @@ res = CryptoCurrencyRate(product, scale).get()
 
 print("\n***情報***")
 print("リクエストステータス " + str(res.status))
-print("現在 " + res.prices_list[-1].price_str + "JPY")
+print("現在 " + res.price_info_list[-1].price_str + "JPY")
 print("推移 " + res.change_str + "%")
 print("\n***一覧***")
 for price_info in res.price_info_list:
