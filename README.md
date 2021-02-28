@@ -7,13 +7,13 @@ bitflyer.com の WEBAPI を勝手に取得します<br>
 # import
 
 ```python
-from getCryptocurrencyRate import getCryptocurrencyRate
+from getCryptocurrencyRate import CryptoCurrencyRate
 ```
 
 # use
 
 ```python
-getCryptocurrencyRate("BTC_JPY", "hour").get() #取得する通貨 間隔
+CryptoCurrencyRate("BTC_JPY", "hour").get() #取得する通貨 間隔
 ```
 
 # License
